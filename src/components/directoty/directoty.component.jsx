@@ -23,7 +23,8 @@ class Directory extends Component {
                     id: 1,
                     title: 'HATS',
                     subtitle: 'SHOP NOW',
-                    imgUrl: 'https://cdn.pixabay.com/photo/2019/09/23/01/10/hat-4497323_960_720.jpg'
+                    imgUrl: 'https://cdn.pixabay.com/photo/2019/09/23/01/10/hat-4497323_960_720.jpg',
+                    linkUrl: 'hats'
                 },
                 {
                     id: 2,
@@ -64,8 +65,8 @@ class Directory extends Component {
 
 
                 this.state.sections.map(
-                    ({ id, title, subtitle, imgUrl, size }) =>
-                        (<MenuItem key={id} title={title} subtitle={subtitle} imgUrl={imgUrl} size={size} />
+                    ({ id, ...otherSetionProps }) =>
+                        (<MenuItem key={id} {...otherSetionProps} />
                         ))
             }
         </div>)
