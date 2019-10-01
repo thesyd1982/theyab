@@ -11,7 +11,7 @@ var API_KEY = '6728659-8fe08feeffece786697ffd9be';
 //var URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + encodeURIComponent('Mens ');
 
 //URL = 'https://cdn.pixabay.com/photo/2016/09/03/23/18/rose-1642970_150.jpg'
-let THEMES = ['HATS', 'JACKETS', 'SNEAKERS', 'WOMANS', 'MENS'];
+//let THEMES = ['HATS', 'JACKETS', 'SNEAKERS', 'WOMANS', 'MENS'];
 class Directory extends Component {
     constructor() {
         super()
