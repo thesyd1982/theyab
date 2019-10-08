@@ -29,4 +29,14 @@
             border: none;
         }
     }
+
+    &.cancel {
+        background-color: #cacaca;
+        color: white;
+
+        &:hover {
+            background-color: #424344;
+            border: 1px solid black;
+        }
+    }
 }
